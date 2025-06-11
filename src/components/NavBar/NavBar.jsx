@@ -72,7 +72,7 @@ const Navbar = () => {
                         href="https://github.com/codingmastr"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-300 hover:text-[#8245ec]"
+                        className="text-gray-300 hover:"
                     >
                         <FaGithub size={24} />
                     </a>
@@ -80,7 +80,7 @@ const Navbar = () => {
                         href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-300 hover:text-[#8245ec]"
+                        className="text-gray-300 hover:text-[#0d83fd]"
                     >
                         <FaLinkedin size={24} />
                     </a>
@@ -90,12 +90,12 @@ const Navbar = () => {
                 <div className="md:hidden">
                     {isOpen ? (
                         <FiX
-                            className="text-3xl text-[#8245ec] cursor-pointer"
+                            className="text-3xl text-[#0d83fd] cursor-pointer"
                             onClick={() => setIsOpen(false)}
                         />
                     ) : (
                         <FiMenu
-                            className="text-3xl text-[#8245ec] cursor-pointer"
+                            className="text-3xl text-[#0d83fd] cursor-pointer"
                             onClick={() => setIsOpen(true)}
                         />
                     )}
@@ -109,7 +109,7 @@ const Navbar = () => {
                         {menuItems.map((item) => (
                             <li
                                 key={item.id}
-                                className={`cursor-pointer hover:text-white ${activeSection === item.id ? "text-[#8245ec]" : ""
+                                className={`cursor-pointer hover:text-white ${activeSection === item.id ? "text-[#0d83fd]" : ""
                                     }`}
                             >
                                 <button onClick={() => handleMenuItemClick(item.id)}>
