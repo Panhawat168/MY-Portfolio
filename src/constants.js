@@ -5,7 +5,7 @@ import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import VueLogo from './assets/tech_logo/Vue.png';
-import PiniaLogo from './assets/tech_logo/Pinialogo.png';
+import PiniaLogo  from './assets/tech_logo/Pinialogo.png';
 import reduxLogo from './assets/tech_logo/redux.png';
 // import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
@@ -45,9 +45,9 @@ import SqlliteLogo from './assets/tech_logo/SQLite-Logo.wine.png';
 
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import digitalLogo from './assets/company_logo/logo.png';
+import kiloITLogo from './assets/company_logo/kiloit68_logo.png';
+import wintechLogo from './assets/company_logo/wintech.png';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
@@ -77,8 +77,8 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Vue Js', logo: VueLogo },
-      { name: 'Pinia', logo: PiniaLogo },
-
+       { name: 'Pinia', logo: PiniaLogo },
+      
       // { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Material UI', logo: materialuiLogo },
@@ -143,57 +143,54 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: webverseLogo,
-    role: "Fullstack Developer",
-    company: "Webverse Digital",
+    img: digitalLogo,
+    role: "IT Office",
+    company: "General Department of Digital Technology and Media",
     date: "April 2024 - Present",
-    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    desc: "I manage IT infrastructure and security, develop government websites, and improve user experience through data analysis. I also train users on Microsoft Office, internal systems, and digital tools, including email setup and account security for Gmail and Telegram",
     skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React JS",
-      "TypeScript",
-      "Node JS",
-      "Tailwind CSS",
-      "MongoDb",
-      "Redux",
-      " Next Js",
+      "Managed IT infrastructure and security",
+      "Developed and maintained government websites",
+      "Analyzed web and user data to improve website performance and user experience",
+      "Trained trainees in using Power-point Office applications effectively",
+      "Instructed users on how to operate internal systems and software tools",
+      "Supported trainees in understanding and using modern technology tools",
+      "Guided trainees in creating email accounts and using email services",
+      "preventing unauthorized access"
+      
     ],
   },
   {
     id: 1,
-    img: agcLogo,
-    role: "Fullstack Engineer",
-    company: "Agumentik Group of Companies",
-    date: "July 2023 - March 2024",
-    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+    img: kiloITLogo,
+    role: "Intern Web Developer",
+    company: "KILOIT",
+    date: "2023-2024",
+    desc: "I develop user-friendly websites using ReactJS, focusing on clean UI/UX design and smooth functionality. I implement content management features, maintain website updates, and integrate RESTful APIs to display dynamic content effectively.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
-      "SQL",
+      "Developed user-friendly websites using ReactJS and Redux for efficient state management",
+      "Implemented content management features to enhance site functionality",
+      "Maintained website updates while ensuring adherence to UI/UX best practices",
+      "Integrated and consumed RESTful APIs to display dynamic content seamlessly"
     ],
   },
   {
     id: 2,
-    img: newtonschoolLogo,
-    role: "Frontend Intern",
-    company: "Newton School",
-    date: "September 2021 - August 2022",
-    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+    img: wintechLogo,
+    role: "Practical Traning ",
+    company: "WinTech Cambodia ",
+    date: "2022",
+    desc: "I built a user-friendly news website with a strong content management structure, optimized content for SEO, and added interactive features to boost engagement. I ensured regular updates to maintain credibility and relevance.",
     skills: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Bootstrap",
-      "Figma",
-      "Material UI",
+      "Built a news website including planning and user-friendly design",
+      "Developed a strong content management structure",
+      "Categorized and optimized content for usability and SEO",
+      "Added interactive features to improve user engagement",
+      "Kept the website updated to maintain credibility and relevance",
+     
     ],
   },
+  
 ];
 
 export const education = [

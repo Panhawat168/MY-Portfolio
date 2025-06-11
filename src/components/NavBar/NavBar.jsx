@@ -43,7 +43,7 @@ const Navbar = () => {
         >
             <div className="text-white py-5 flex justify-between items-center">
                 {/* Logo */}
-                <div className="text-lg font-semibold cursor-pointer">
+                <div className=" text-2xl font-semibold cursor-pointer">
                     <span className='text-[#0d83fd]'>&lt;</span>
                     <span className=' text-white'>Men</span>
                     <span className='text-[#0d83fd]'>/</span>
@@ -52,7 +52,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex space-x-8 text-gray-300">
+                <ul className="hidden md:flex space-x-8 text-gray-300 text-2xl">
                     {menuItems.map((item) => (
                         <li
                             key={item.id}

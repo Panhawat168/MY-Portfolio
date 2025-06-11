@@ -1,6 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import profileImage from '../../assets/Wat.jpg';
+import profileImage from '../../assets/cicrcleimg.png';
 import Tilt from 'react-parallax-tilt';
 
 
@@ -57,9 +57,23 @@ const About = () => {
         {/* Right side Imge pf */}
         <div className='md:w-1/2 flex justify-center md:justify-end'>
 
+          <Tilt
+            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-[#43b4bb] rounded-full"
+            tiltMaxAngleX={20}
+            tiltMaxAngleY={20}
+            perspective={1000}
+            scale={1.05}
+            transitionSpeed={1000}
+            gyroscope={true}
+          >
+            <img
+              src={profileImage}
+              alt="Panhawat"
+              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+            />
+          </Tilt>
 
 
-          <img className='w-50 h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(0_10px_20px_rgb(130,69,236,0.5))]' src={profileImage} alt="" srcset="" />
 
         </div>
 
