@@ -7,7 +7,7 @@ import Experience from './components/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 import Skills from './components/Skills/Skills';
-import Work from './components/Work/Work';
+import Project from './components/Project/Project';
 import Blurblob from './Blurblob';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <About />
         <Skills />
         <Experience />
-        <Work />
+        <Project/>
         <Education />
         <Contact />
         <Footer />

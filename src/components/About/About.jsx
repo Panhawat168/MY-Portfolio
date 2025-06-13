@@ -26,7 +26,9 @@ const About = () => {
             </span>
             <TypeAnimation
               sequence={[
+                'Frontend Developer',
                 'Fullstack Developer', 2000, // Display text, wait 2000ms
+                'IT', 2000,
                 'Coder', 2000,
               ]}
               speed={50} // Maps to 100 in react-typing-effect (inverted scale)
@@ -55,10 +57,10 @@ const About = () => {
           </a>
         </div>
         {/* Right side Imge pf */}
-        <div className='md:w-1/2 flex justify-center md:justify-end'>
+        <div className='md:w-1/2 flex justify-center md:justify-end lg:ml-10 p-0 lg:mb-20 '>
 
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-[#43b4bb] rounded-full"
+            className="  w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-[#43b4bb] rounded-full "
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
+import { menuItems } from "../../constants";
+
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -28,13 +30,6 @@ const Navbar = () => {
         }
     };
 
-    const menuItems = [
-        { id: "about", label: "About" },
-        { id: "skills", label: "Skills" },
-        { id: "experience", label: "Experience" },
-        { id: "work", label: "Projects" },
-        { id: "education", label: "Education" },
-    ];
 
     return (
         <nav
@@ -43,7 +38,7 @@ const Navbar = () => {
         >
             <div className="text-white py-5 flex justify-between items-center">
                 {/* Logo */}
-                <div className=" text-2xl font-semibold cursor-pointer">
+                <div className=" text-md font-semibold cursor-pointer">
                     <span className='text-[#0d83fd]'>&lt;</span>
                     <span className=' text-white'>Men</span>
                     <span className='text-[#0d83fd]'>/</span>
@@ -52,7 +47,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex space-x-8 text-gray-300 text-2xl">
+                <ul className="hidden md:flex space-x-8 text-gray-300 text-md">
                     {menuItems.map((item) => (
                         <li
                             key={item.id}
@@ -72,18 +67,29 @@ const Navbar = () => {
                         href="https://github.com/codingmastr"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-300 hover:"
+                        className="text-gray-300" // GitHub brand color is black
                     >
                         <FaGithub size={24} />
                     </a>
+
                     <a
-                        href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+                        href="https://www.linkedin.com/in/men-panhawat-712b0929b/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-300 hover:text-[#0d83fd]"
+                        className="text-gray-300 hover:text-[#0077B5]" // LinkedIn brand color
                     >
                         <FaLinkedin size={24} />
                     </a>
+
+                    <a
+                        href="" // Replace with your actual Telegram username
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-300 hover:text-[#0088cc]" // Telegram brand color
+                    >
+                        <FaTelegram size={24} />
+                    </a>
+
                 </div>
 
                 {/* Mobile Menu Icon */}
@@ -127,12 +133,20 @@ const Navbar = () => {
                                 <FaGithub size={24} />
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+                                href=""
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-white"
                             >
                                 <FaLinkedin size={24} />
+                            </a>
+                            <a
+                                href="" // Replace with your actual Telegram username
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-300 hover:text-[#0088cc]" // Telegram brand color
+                            >
+                                <FaTelegram size={24} />
                             </a>
                         </div>
                     </ul>

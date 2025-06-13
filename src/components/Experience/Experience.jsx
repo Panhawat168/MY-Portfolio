@@ -10,9 +10,10 @@ const Experience = () => {
       {/* Title */}
       <div className="text-center mb-20">
         <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
-        <div className="w-24 h-1 mx-auto mt-3"style={{
-        background: ' linear-gradient(90deg,#0d83fd,#a855f7)',
-        boxShadow: '0 0 2px ##0d83fd, 0 0 2px #0d83fd, 0 0 40px #0d83fd '}}></div>
+        <div className="w-24 h-1 mx-auto mt-3" style={{
+          background: ' linear-gradient(90deg,#0d83fd,#a855f7)',
+          boxShadow: '0 0 2px ##0d83fd, 0 0 2px #0d83fd, 0 0 40px #0d83fd '
+        }}></div>
         <p className="text-gray-400 mt-4 text-lg font-medium">
           A timeline of my work across various organizations
         </p>
@@ -29,9 +30,8 @@ const Experience = () => {
           return (
             <div
               key={experience.id}
-              className={`relative mb-5 flex flex-col sm:flex-row items-center ${
-                isLeft ? "sm:justify-start" : "sm:justify-end"
-              }`}
+              className={`relative mb-5 flex flex-col sm:flex-row items-center ${isLeft ? "sm:justify-start" : "sm:justify-end"
+                }`}
             >
               {/* Timeline Dot with Logo */}
               <div className="absolute left-1/2 transform -translate-x-1/2 bg-white border-4 border-[#0d83fd] w-14 h-14 rounded-full z-10 flex items-center justify-center shadow-lg">
@@ -44,9 +44,8 @@ const Experience = () => {
 
               {/* Experience Card */}
               <div
-                className={`mt-20 sm:mt-0 sm:w-1/2 w-full px-4 sm:px-0 ${
-                  isLeft ? "sm:pr-12" : "sm:pl-12"
-                }`}
+                className={`mt-20 sm:mt-0 sm:w-1/2 w-full px-4 sm:px-0 ${isLeft ? "sm:pr-12" : "sm:pl-12"
+                  }`}
               >
                 <div className="bg-gray-900 border border-white rounded-2xl shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] p-6 hover:scale-[1.02] transition-transform duration-300">
                   <div className="flex items-center gap-4 mb-4">
