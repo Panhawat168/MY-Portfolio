@@ -34,7 +34,7 @@ const Experience = () => {
                 }`}
             >
               {/* Timeline Dot with Logo */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 bg-white border-4 border-[#0d83fd] w-14 h-14 rounded-full z-10 flex items-center justify-center shadow-lg">
+              <div className="absolute left-1/2 transform -translate-x-1/2 bg-white border-4 border-[#0d83fd] w-14 h-14 rounded-full z-10 flex items-center justify-center shadow-lg ">
                 <img
                   src={experience.img}
                   alt={experience.company}
@@ -49,7 +49,7 @@ const Experience = () => {
               >
                 <div className="bg-gray-900 border border-white rounded-2xl shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] p-6 hover:scale-[1.02] transition-transform duration-300">
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="w-12 h-12 bg-white rounded-md p-1">
+                    <div className="w-12 h-12 bg-white rounded-md p-1 text-justify" >
                       <img
                         src={experience.img}
                         alt={experience.company}
@@ -62,14 +62,14 @@ const Experience = () => {
                       <p className="text-xs text-gray-500">{experience.date}</p>
                     </div>
                   </div>
-                  <p className="text-gray-300">{experience.desc}</p>
+                  <p className="text-md text-gray-300 text-justify" >{experience.desc}</p>
                   <div className="mt-4">
-                    <h5 className="text-white font-semibold mb-2"></h5>
+                    <h5 className="text-white font-semibold mb-2">Responsibility</h5>
                     <ul className="flex flex-col gap-2">
                       {experience.skills.map((skill, i) => (
                         <li
                           key={i}
-                          className=" text-white px-3 py-1 ml-5 text-xs sm:text-sm rounded-lg list-disc "
+                          className=" text-gray-300 px-3 py-1 ml-5 text-xs sm:text-sm rounded-lg list-disc "
                         >
                           {skill}
                         </li>

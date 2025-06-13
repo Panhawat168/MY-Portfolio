@@ -51,8 +51,8 @@ import wintechLogo from './assets/company_logo/wintech.png';
 
 // Education Section Logo's
 import belteiLogo from './assets/education_logo/beltei_international.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import masteritLogo from './assets/education_logo/masterIT.png';
+import prekengschoolLogo from './assets/education_logo/unnamed.webp';
 
 // Project Section Logo's
 import ecommerceLogo from './assets/work_logo/Ecommerce.png';
@@ -157,19 +157,21 @@ export const experiences = [
   {
     id: 0,
     img: digitalLogo,
-    role: "IT Office",
+    role: "Intern IT Office",
     company: "General Department of Digital Technology and Media",
-    date: "April 2024 - Present",
+    date: " 2024",
     desc: "I manage IT infrastructure and security, develop government websites, and improve user experience through data analysis. I also train users on Microsoft Office, internal systems, and digital tools, including email setup and account security for Gmail and Telegram",
     skills: [
-      "Managed IT infrastructure and security",
-      "Developed and maintained government websites",
+      "Enty data in Web-portal",
       "Analyzed web and user data to improve website performance and user experience",
       "Trained trainees in using Power-point Office applications effectively",
       "Instructed users on how to operate internal systems and software tools",
       "Supported trainees in understanding and using modern technology tools",
       "Guided trainees in creating email accounts and using email services",
-      "preventing unauthorized access"
+      "preventing unauthorized access",
+      "Set up and configured a large LED screen for meetings and training presentations",
+      "Provided technical support for hardware, software, and network systems",
+      "Installed, configured, and maintained Windows systems and software tools",
 
     ],
   },
@@ -217,30 +219,28 @@ export const education = [
   },
   {
     id: 1,
-    img: bsaLogo,
-    school: "BSA College, Mathura",
-    date: "Sept 2018 - Aug 2021",
-    grade: "73.2%",
-    desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-    degree: "Bachelor of Science - BSC (Computer Science)",
+    img: belteiLogo,
+    school: "BIU UNIVERSISTY",
+    date: "2022-2023",
+   
+    desc: " I have successfully completed the Intensive English Course I & II at BELTEI International University. This program focused on enhancing my listening and speaking abilities through engaging video documentaries and interactive activities. I also developed core English writing skills, including grammar and composition, as well as improved my reading comprehension and vocabulary. These skills have strengthened my overall proficiency in English communication.",
+    degree: "Intensive Course ",
   },
   {
     id: 2,
-    img: vpsLogo,
-    school: "Vatsalya Public School Govardhan, Mathura",
-    date: "Apr 2017 - March 2018",
-    grade: "78%",
-    desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-    degree: "CBSE(XII) - PCM with Computer Science",
+    img: masteritLogo,
+    school: "Master IT Cambodia",
+    date: "2024-2025",
+    desc: "Completed a computer course covering Microsoft Word, Excel, and PowerPoint at Master Information Technology Center. Gained practical skills in document creation, data management, and presentation design to support efficient office and professional work.",
+    degree: "Course",
   },
   {
     id: 3,
-    img: vpsLogo,
-    school: "Vatsalya Public School Govardhan, Mathura",
-    date: "Apr 2015 - March 2016",
-    grade: "87.5%",
-    desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-    degree: "CBSE(X), Science with Computer Application",
+    img: prekengschoolLogo,
+    school: "Prekeng High School",
+    date: "2021-2022",
+    desc: "I successfully completed my high school education at Prekeng High School, graduating in the year 2021. During my time there, I gained a solid foundation in various academic subjects and developed important skills that prepared me for further studies and future career opportunities. The experience helped me build discipline, teamwork, and a strong work ethic, which continue to support my personal and professional growth.",
+    degree: "Diploma",
   },
 ];
 
@@ -262,8 +262,8 @@ export const projects = [
       "At Bamboo, we believe in creating design and technology that’s made for everyone. Join a team that values creativity, inclusion, and innovation. Whether you’re a student, an experienced professional, or looking to make a change, we offer roles that fit your skills—and help you grow beyond them. Discover your next opportunity and make an impact with us",
     image: jobLogo,
     tags: ["Vue js", "Pinia", "Tailwand css", "Unitesting Vite"],
-    github: "https://github.com/codingmastr/Webverse-Digital",
-    webapp: "https://webversedigital.com/",
+    github: "",
+    webapp: "",
   },
   {
     id: 2,
@@ -272,8 +272,8 @@ export const projects = [
       "The Teacher Attendance Management System is a simple desktop or web app for administrators to track teacher attendance, manage teacher and class data, and generate reports in real-time.",
     image: attendancecLogo,
     tags: ["C#", "Oracle", "Guna"],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "",
+    webapp: "",
   },
 
   {
@@ -315,7 +315,7 @@ export const projects = [
     image: mtrLogo,
     tags: ["React Js", "Boostrap", "Swiper js"],
     github: "",
-    webapp: "https://panhawat168.github.io/BookStore/",
+    webapp: "",
   },
 
   {
@@ -326,7 +326,7 @@ export const projects = [
     image: aireLogo,
     tags: ["React Js", "Boostrap", "Swiper js"],
     github: "",
-    webapp: "https://panhawat168.github.io/BookStore/",
+    webapp: "",
   },
 
   {

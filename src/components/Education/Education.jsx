@@ -14,7 +14,7 @@ const Education = () => {
             boxShadow: '0 0 2px ##0d83fd, 0 0 2px #0d83fd, 0 0 40px #0d83fd '
           }}></div>
           <p className="text-gray-400 mt-4 text-lg font-medium">
-            A timeline of my work across various organizations
+            A timeline of my academic journey and growth through various institutions.
           </p>
         </div>
   
@@ -62,7 +62,7 @@ const Education = () => {
                       </div>
                     </div>
                     <p className="text-gray-300 ">{edu.grade}</p>
-                     <p className="text-gray-300 text-justify">{edu.desc}</p>
+                     <p className="text-md text-gray-300 text-justify ">{edu.desc}</p>
                   </div>
                 </div>
               </div>

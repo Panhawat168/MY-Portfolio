@@ -39,11 +39,8 @@ const About = () => {
             />
           </h3>
           {/* about me paragraph */}
-          <p className=' text-base text-justify sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed sm:tracking-normal'>
-            I am seeking a Web Designer position to apply my passion for innovation and
-            problem-solving,along with my real-world experience in building
-            full-stack web applications and managing IT systems.
-            I have worked with both front-end and back-end technologies, enabling me to create websites that are not only visually appealing but also function seamlessly. Through this opportunity, I aim to leverage my skills and experience to contribute meaningfully to the technological advancements within your community.
+          <p className=' text-base tracking-tight text-justify sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed sm:-tracking-tight  '>
+            I am a fresh graduate in Software Engineering from BELTEI International University. Throughout my academic journey, I have built a strong foundation in software engineering principles and best practices. My coursework has equipped me with a solid understanding of the software development lifecycle, programming languages, system analysis, design, and testing methodologies. I am eager to apply my knowledge and skills to real-world projects and contribute effectively to software development teams.
           </p>
           {/* my cv */}
 

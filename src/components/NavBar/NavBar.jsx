@@ -64,7 +64,7 @@ const Navbar = () => {
                 {/* Social Icons */}
                 <div className="hidden md:flex space-x-4">
                     <a
-                        href="https://github.com/codingmastr"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-300" // GitHub brand color is black
@@ -125,7 +125,7 @@ const Navbar = () => {
                         ))}
                         <div className="flex space-x-4">
                             <a
-                                href="https://github.com/codingmastr"
+                                href=""
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-white"
@@ -141,10 +141,10 @@ const Navbar = () => {
                                 <FaLinkedin size={24} />
                             </a>
                             <a
-                                href="" // Replace with your actual Telegram username
+                                href="https://www.linkedin.com/in/men-panhawat-712b0929b/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-300 hover:text-[#0088cc]" // Telegram brand color
+                                className="text-gray-300 hover:text-[#0088cc]"
                             >
                                 <FaTelegram size={24} />
                             </a>
