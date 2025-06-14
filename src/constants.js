@@ -157,7 +157,7 @@ export const experiences = [
   {
     id: 0,
     img: digitalLogo,
-    role: "Intern IT Office",
+    role: " IT Office",
     company: "General Department of Digital Technology and Media",
     date: " 2024",
     desc: "I manage IT infrastructure and security, develop government websites, and improve user experience through data analysis. I also train users on Microsoft Office, internal systems, and digital tools, including email setup and account security for Gmail and Telegram",
