@@ -9,10 +9,11 @@ import NavBar from './components/NavBar/NavBar';
 import Skills from './components/Skills/Skills';
 import Project from './components/Project/Project';
 import Blurblob from './Blurblob';
+import TopScrollButton from './components/TopScrollButton';
+
 
 function App() {
-
-
+  
   return (
 
     <div className='bg-[#1e293b]'>
@@ -27,7 +28,7 @@ function App() {
         <Education />
         <Contact />
         <Footer />
-
+       <TopScrollButton/>
       </div>
     </div>
   );
