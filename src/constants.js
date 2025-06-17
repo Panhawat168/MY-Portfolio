@@ -71,7 +71,7 @@ import jobLogo from './assets/work_logo/josearch.png';
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    key: 'Frontend',
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
@@ -89,7 +89,7 @@ export const SkillsInfo = [
     ],
   },
   {
-    title: 'Backend',
+    key: 'Backend',
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
@@ -109,7 +109,7 @@ export const SkillsInfo = [
     ],
   },
   {
-    title: 'Database',
+    key: 'Database',
     skills: [
 
       { name: 'MySQL', logo: mysqlLogo },
@@ -127,7 +127,7 @@ export const SkillsInfo = [
     ],
   },
   {
-    title: 'Tools',
+    key: 'Tools',
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
@@ -144,20 +144,23 @@ export const SkillsInfo = [
 ];
 
 
- export const menuItems = [
-        { id: "about", label: "About" },
-        { id: "skills", label: "Skills" },
-        { id: "experience", label: "Experience" },
-        { id: "work", label: "Projects" },
-        { id: "education", label: "Education" },
-    ];
+// constants/index.js
+export const menuItems = [
+  { id: "home", labelKey: "navbar.home" },
+  { id: "skills", labelKey: "navbar.skills" },
+  { id: "experience", labelKey: "navbar.experience" },
+  { id: "education", labelKey: "navbar.education" },
+  { id: "projects", labelKey: "navbar.projects" },
+  { id: "contact", labelKey: "navbar.contact" },
+];
+
 
 
 export const experiences = [
   {
     id: 0,
     img: digitalLogo,
-    role: " IT Office",
+    role: "Intern IT Office",
     company: "General Department of Digital Technology and Media",
     date: " 2024",
     desc: "I manage IT infrastructure and security, develop government websites, and improve user experience through data analysis. I also train users on Microsoft Office, internal systems, and digital tools, including email setup and account security for Gmail and Telegram",
@@ -242,45 +245,41 @@ export const education = [
     desc: "I successfully completed my high school education at Prekeng High School, graduating in the year 2021. During my time there, I gained a solid foundation in various academic subjects and developed important skills that prepared me for further studies and future career opportunities. The experience helped me build discipline, teamwork, and a strong work ethic, which continue to support my personal and professional growth.",
     degree: "Diploma",
   },
+  
 ];
 
 export const projects = [
   {
     id: 0,
-    title: "Multi Vendor ecommerce(Mern Stack)",
-    description:
-      "This is a multi-vendor e-commerce web application built with React.js, Tailwind CSS, and Redux for the frontend, with a Node.js and Express backend, and MongoDB as the database. It allows multiple vendors to manage their products while customers can browse, filter, and purchase items. Key features include user authentication, product filtering, a shopping cart, and a responsive UI",
+    title: "projects.ecommerce.title",
+    description: "projects.ecommerce.description",
     image: ecommerceLogo,
-    tags: ["React JS ", "Redux", "Tailwind CSS", "Node js", "Express js ", " MongoDB"],
+    tags: ["React JS", "Redux", "Tailwind CSS", "Node js", "Express js", "MongoDB"],
     github: "",
     webapp: "",
   },
   {
     id: 1,
-    title: "Job Search",
-    description:
-      "At Bamboo, we believe in creating design and technology that’s made for everyone. Join a team that values creativity, inclusion, and innovation. Whether you’re a student, an experienced professional, or looking to make a change, we offer roles that fit your skills—and help you grow beyond them. Discover your next opportunity and make an impact with us",
+    title: "projects.job.title",
+    description: "projects.job.description",
     image: jobLogo,
-    tags: ["Vue js", "Pinia", "Tailwand css", "Unitesting Vite"],
+    tags: ["Vue js", "Pinia", "Tailwind CSS", "Unitesting Vite"],
     github: "",
     webapp: "",
   },
   {
     id: 2,
-    title: "Attendance System",
-    description:
-      "The Teacher Attendance Management System is a simple desktop or web app for administrators to track teacher attendance, manage teacher and class data, and generate reports in real-time.",
+    title: "projects.attendance.title",
+    description: "projects.attendance.description",
     image: attendancecLogo,
     tags: ["C#", "Oracle", "Guna"],
     github: "",
     webapp: "",
   },
-
   {
     id: 3,
-    title: "College Attendance Management System",
-    description:
-      "The College Attendance Management System supports two user roles: Admin and Faculty. Admins have full control, including access to the Django Admin Panel, and manage system data like courses and faculty accounts. Faculty users can only manage their assigned classes, handle attendance, add or remove students, and print attendance reports.",
+    title: "projects.collegeAttendance.title",
+    description: "projects.collegeAttendance.description",
     image: attendancepythonLogo,
     tags: ["Python", "Django", "HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     github: "",
@@ -288,57 +287,47 @@ export const projects = [
   },
   {
     id: 4,
-    title: "News",
-    description:
-      "Panhawat Technology is an online news and information platform focused on delivering the latest updates in technology, local and international news, business insights, and analytical articles. The homepage features a user-friendly layout with a top navigation bar, including categories like Home, Local, Business, Knowledge, and Analysis. A prominent section labeled Panhawat News highlights major headlines with featured images and article previews.",
+    title: "projects.news.title",
+    description: "projects.news.description",
     image: newsLogo,
-    tags: ["HTML", "Bootstrap", "PHP", "Mysql"],
+    tags: ["HTML", "Bootstrap", "PHP", "MySQL"],
     github: "",
     webapp: "",
   },
   {
     id: 5,
-    title: "Portfolio Project ",
-    description:
-      "I am Panhawat, a Frontend Developer skilled in React.js, using hooks and context API for efficient state management. My portfolio showcases responsive, interactive designs. Let’s collaborate—reach out!",
+    title: "projects.portfolio.title",
+    description: "projects.portfolio.description",
     image: portfolioLogo,
-    tags: ["React js", "Bootstrap", "React Icons"],
+    tags: ["React JS", "Bootstrap", "React Icons"],
     github: "",
     webapp: "",
   },
-
   {
     id: 6,
-    title: "Air cool ",
-    description:
-      "AirCon is a premier AC repair service dedicated to delivering top-quality solutions for all your cooling needs. Our skilled technicians provide efficient, reliable repairs and maintenance to ensure your comfort year-round. Explore our range of services and discover why we’re the trusted choice for AC care.",
+    title: "projects.aircool.title",
+    description: "projects.aircool.description",
     image: mtrLogo,
-    tags: ["React Js", "Boostrap", "Swiper js"],
+    tags: ["React JS", "Bootstrap", "Swiper JS"],
     github: "",
     webapp: "",
   },
-
   {
     id: 7,
-    title: "MTR Project",
-    description:
-      "MTR offers flexible plans tailored to your needs, from a free tier for beginners to advanced options for professionals",
+    title: "projects.mtr.title",
+    description: "projects.mtr.description",
     image: aireLogo,
-    tags: ["React Js", "Boostrap", "Swiper js"],
+    tags: ["React JS", "Bootstrap", "Swiper JS"],
     github: "",
     webapp: "",
   },
-
   {
     id: 8,
-    title: "Book Store ",
-    description:
-      "Konato is an online bookstore offering a wide selection of books, including tech, coding, and more—at great prices. Enjoy easy browsing, big discounts, and quality reads all in one place.",
+    title: "projects.bookstore.title",
+    description: "projects.bookstore.description",
     image: taskremLogo,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "",
     webapp: "https://panhawat168.github.io/BookStore/",
-  },
-
-
-];  
+  }
+];

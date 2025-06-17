@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   const handleScroll = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -13,23 +16,23 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-10 px-[8vw]">
       <div className="max-w-7xl mx-auto text-center space-y-6">
         {/* Logo / Name */}
-        <h2 className="text-2xl font-bold text-[#0d83fd] uppercase">Men Panhawat</h2>
+        <h2 className="text-2xl font-bold text-[#0d83fd] uppercase">{t("footer.ownerName")}</h2>
 
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center gap-4 sm:gap-6 text-sm sm:text-base font-medium">
           {[
-            { name: "About", id: "about" },
-            { name: "Skills", id: "skills" },
-            { name: "Experience", id: "experience" },
-            { name: "Projects", id: "projects" },
-            { name: "Education", id: "education" },
+            { key: "footer.home", id: "home" },
+            { key: "footer.skills", id: "skills" },
+            { key: "footer.experience", id: "experience" },
+            { key: "footer.projects", id: "projects" },
+            { key: "footer.education", id: "education" },
           ].map((item, index) => (
             <button
               key={index}
               onClick={() => handleScroll(item.id)}
               className="hover:text-[#0d83fd] transition duration-300"
             >
-              {item.name}
+              {t(item.key)}
             </button>
           ))}
         </nav>
@@ -60,7 +63,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-sm text-gray-400">
-          © 2025 <span className="text-white font-medium">Men Panhawat</span>. All rights reserved.
+          © 2025 <span className="text-white font-medium">{t("footer.ownerName")}</span>. {t("footer.rights")}.
         </p>
       </div>
     </footer>

@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "About",
     "skills": "Skills",
-     "education": "Education",
+    "education": "Education",
     "experience": "Experience",
     "projects": "Projects",
     "contact": "Contact",
@@ -38,16 +38,14 @@
     "Database": "Database",
     "Tools": "Tools"
   },
-   "experience": {
-        "title": "Experience",
-        "subtitle": "A timeline of my work across various organizations and projects"
-    },
-
-    "experiences": {
+  "experience": {
+    "title": "Experience",
+    "subtitle": "A timeline of my work across various organizations and projects"
+  },
+  "experiences": {
     "title": "EXPERIENCE",
     "subtitle": "A timeline of my work across various organizations",
     "responsibility": "Responsibility",
-
     "0": {
       "role": " IT Office",
       "company": "General Department of Digital Technology and Media",
@@ -66,20 +64,19 @@
         "Maintained Windows systems and tools"
       ]
     },
-
     "1": {
       "role": "Intern Web Developer",
       "company": "KILOIT",
       "desc": "I develop user-friendly websites using ReactJS, focusing on clean UI/UX design and smooth functionality...",
       "data": "2023-2024",
       "skills": [
-        "Built websites with ReactJS and Redux",
-        "Added content management features",
-        "Maintained and updated UI/UX",
-        "Used RESTful APIs for dynamic content"
+        "Built dynamic user interfaces using ReactJS and Redux",
+        "Integrated RESTful APIs to fetch and display live data.",
+        "Maintained website updates and ensured UI/UX best practices",
+        "Ensured responsive design for various devices",
+        "Collaborated with backend developers for content management features"
       ]
     },
-
     "2": {
       "role": "Practical Training",
       "company": "WinTech Cambodia",
@@ -95,95 +92,92 @@
     }
   },
   "education": {
-  "title": "EDUCATION",
-  "subtitle": "A timeline of my academic journey and growth through various institutions",
-  "0": {
-    "school": "BIU UNIVERSITY, SE",
-    "degree": "Bachelor of Software Engineering",
-    "date": "May 28, 2025",
-    "desc": "I am a recent Bachelor’s degree graduate in Software Engineering from Beltei International University with a strong foundation in programming, software development, and web technologies. I have experience working with React, Vue.js, Node.js, Express.js, MongoDB, Oracle, C#, PHP, and Laravel through various academic and personal projects"
+    "title": "EDUCATION",
+    "subtitle": "A timeline of my academic journey and growth through various institutions",
+    "0": {
+      "school": "BIU UNIVERSITY, SE",
+      "degree": "Bachelor of Software Engineering",
+      "date": "May 28, 2025",
+      "desc": "I am a recent Bachelor’s degree graduate in Software Engineering from Beltei International University with a strong foundation in programming, software development, and web technologies. I have experience working with React, Vue.js, Node.js, Express.js, MongoDB, Oracle, C#, PHP, and Laravel through various academic and personal projects"
+    },
+    "1": {
+      "school": "BIU UNIVERSITY",
+      "degree": "Intensive English Course I & II",
+      "date": "2022–2023",
+      "desc": "I have successfully completed the Intensive English Course I & II at BELTEI International University. This program focused on enhancing my listening and speaking abilities through engaging video documentaries and interactive activities. I also developed core English writing skills, including grammar and composition, as well as improved my reading comprehension and vocabulary. These skills have strengthened my overall proficiency in English communication."
+    },
+    "2": {
+      "school": "Master IT Cambodia",
+      "degree": "Computer Course",
+      "date": "2024–2025",
+      "desc": "Completed a computer course covering Microsoft Word, Excel, and PowerPoint at Master Information Technology Center. Gained practical skills in document creation, data management, and presentation design to support efficient office and professional work."
+    },
+    "3": {
+      "school": "Prek Eng High School",
+      "degree": "High School Diploma",
+      "date": "2021–2022",
+      "desc": "I successfully completed my high school education at Prekeng High School, graduating in the year 2021. During my time there, I gained a solid foundation in various academic subjects and developed important skills that prepared me for further studies and future career opportunities. The experience helped me build discipline, teamwork, and a strong work ethic, which continue to support my personal and professional growth."
+    }
   },
-  "1": {
-    "school": "BIU UNIVERSITY",
-    "degree": "Intensive English Course I & II",
-    "date": "2022–2023",
-    "desc": "I have successfully completed the Intensive English Course I & II at BELTEI International University. This program focused on enhancing my listening and speaking abilities through engaging video documentaries and interactive activities. I also developed core English writing skills, including grammar and composition, as well as improved my reading comprehension and vocabulary. These skills have strengthened my overall proficiency in English communication."
-  },
-  "2": {
-    "school": "Master IT Cambodia",
-    "degree": "Computer Course",
-    "date": "2024–2025",
-    "desc": "Completed a computer course covering Microsoft Word, Excel, and PowerPoint at Master Information Technology Center. Gained practical skills in document creation, data management, and presentation design to support efficient office and professional work."
-  },
-  "3": {
-    "school": "Prek Eng High School",
-    "degree": "High School Diploma",
-    "date": "2021–2022",
-    "desc": "I successfully completed my high school education at Prekeng High School, graduating in the year 2021. During my time there, I gained a solid foundation in various academic subjects and developed important skills that prepared me for further studies and future career opportunities. The experience helped me build discipline, teamwork, and a strong work ethic, which continue to support my personal and professional growth."
-  }
-},
-  
   "projects": {
-  "ecommerce": {
-    "title": "Multi Vendor Ecommerce (MERN Stack)",
-    "description": "This is a multi-vendor ecommerce application that allows vendors to manage products and orders, with features like product management, order processing, and user authentication. It includes a user-friendly interface for both customers and vendors, ensuring a seamless shopping experience."
+    "ecommerce": {
+      "title": "Multi Vendor Ecommerce (MERN Stack)",
+      "description": "This is a multi-vendor ecommerce application that allows vendors to manage products and orders, with features like product management, order processing, and user authentication. It includes a user-friendly interface for both customers and vendors, ensuring a seamless shopping experience."
+    },
+    "job": {
+      "title": "Job Search",
+      "description": "At Bamboo, we believe in creating design and technology that’s made for everyone..."
+    },
+    "attendance": {
+      "title": "Attendance System",
+      "description": "The Teacher Attendance Management System is a simple desktop or web app for tracking teacher attendance..."
+    },
+    "collegeAttendance": {
+      "title": "College Attendance Management System",
+      "description": "Supports two user roles: Admin and Faculty. Admins manage system data and faculty accounts..."
+    },
+    "news": {
+      "title": "News",
+      "description": "Panhawat Technology is an online news and information platform..."
+    },
+    "portfolio": {
+      "title": "Portfolio Project",
+      "description": "I am Panhawat, a Frontend Developer skilled in React.js, using hooks and context API..."
+    },
+    "aircool": {
+      "title": "Air Cool",
+      "description": "AirCon is a premier AC repair service delivering top-quality solutions for cooling needs..."
+    },
+    "mtr": {
+      "title": "MTR Project",
+      "description": "MTR offers flexible plans tailored to your needs, from a free tier for beginners..."
+    },
+    "bookstore": {
+      "title": "Book Store",
+      "description": "Konato is an online bookstore offering a wide selection of books..."
+    }
   },
-  "job": {
-    "title": "Job Search",
-    "description": "At Bamboo, we believe in creating design and technology that’s made for everyone..."
-  },
-  "attendance": {
-    "title": "Attendance System",
-    "description": "The Teacher Attendance Management System is a simple desktop or web app for tracking teacher attendance..."
-  },
-  "collegeAttendance": {
-    "title": "College Attendance Management System",
-    "description": "Supports two user roles: Admin and Faculty. Admins manage system data and faculty accounts..."
-  },
-  "news": {
-    "title": "News",
-    "description": "Panhawat Technology is an online news and information platform..."
-  },
-  "portfolio": {
-    "title": "Portfolio Project",
-    "description": "I am Panhawat, a Frontend Developer skilled in React.js, using hooks and context API..."
-  },
-  "aircool": {
-    "title": "Air Cool",
-    "description": "AirCon is a premier AC repair service delivering top-quality solutions for cooling needs..."
-  },
-  "mtr": {
-    "title": "MTR Project",
-    "description": "MTR offers flexible plans tailored to your needs, from a free tier for beginners..."
-  },
-  "bookstore": {
-    "title": "Book Store",
-    "description": "Konato is an online bookstore offering a wide selection of books..."
-  }
-},
-
   "project": {
-  "titles": "Projects",
-  "subtitle": " The project I built while studying at university highlights my skills and experience in various technologies.",
-  "viewCode": "View code",
-  "viewLive": "View live",
-  "previous": "Previous",
-  "next": "Next"
+    "titles": "Projects",
+    "subtitle": " The project I built while studying at university highlights my skills and experience in various technologies.",
+    "viewCode": "View code",
+    "viewLive": "View live",
+    "previous": "Previous",
+    "next": "Next"
   },
-   "contact": {
-    "title": "ទំនាក់ទំនង",
-    "subtitle": "មានសំណួរឬឱកាសមែនទេ? ខ្ញុំចង់ស្តាប់ពីអ្នក!",
-    "connect": "ទាក់ទងជាមួយខ្ញុំ 😍",
-    "emailPlaceholder": "អ៊ីមែលរបស់អ្នក",
-    "namePlaceholder": "ឈ្មោះរបស់អ្នក",
-    "subjectPlaceholder": "ប្រធានបទ",
-    "messagePlaceholder": "សាររបស់អ្នក",
-    "send": "ផ្ញើសារ",
-    "success": "សារបានផ្ញើដោយជោគជ័យ! ✅",
-    "error": "បរាជ័យក្នុងការផ្ញើសារ។ សូមព្យាយាមម្ដងទៀត!"
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a question or an opportunity? I'd love to hear from you!",
+    "connect": "Connect with me 😍",
+    "emailPlaceholder": "Your email",
+    "namePlaceholder": "Your name",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Your message",
+    "send": "Send Message",
+    "success": "Message sent successfully! ✅",
+    "error": "Failed to send message. Please try again!"
   },
-
-    "footer": {
+  "footer": {
     "ownerName": "Men Panhawat",
     "home": "Home",
     "skills": "Skills",
