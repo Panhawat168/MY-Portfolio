@@ -3,7 +3,7 @@ import { projects } from "../../constants";
 import { useTranslation } from 'react-i18next';
 
 const Project = () => {
-  const { t } = useTranslation();
+  const { t,i18n} = useTranslation();
   const [selectedProject, setSelectedProject] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -21,9 +21,9 @@ const Project = () => {
   const handlePrevPage = () => setCurrentPage((prev) => Math.max(prev - 1, 1));
   const handleNextPage = () => setCurrentPage((prev) => Math.min(prev + 1, totalPages));
   const toKhmerNumber = (num) => {
-  const khmerDigits = ['០', '១', '២', '៣', '៤', '៥', '៦', '៧', '៨', '៩'];
-  return num.toString().split('').map(d => khmerDigits[d]).join('');
-};
+    const khmerDigits = ['០', '១', '២', '៣', '៤', '៥', '៦', '៧', '៨', '៩'];
+    return num.toString().split('').map(d => khmerDigits[d]).join('');
+  };
 
   return (
     <section id='projects' className='py-24 pb-24 px-[12vw] md:px[7vw] lg:px[20vw] font-sans relative'>
@@ -72,7 +72,7 @@ const Project = () => {
             onClick={() => handlePageChange(i + 1)}
             className={`px-4 py-2 rounded ${currentPage === i + 1 ? 'bg-[#0d83fd] text-white' : 'bg-gray-800 text-gray-300'} hover:bg-[#0d83fd] hover:text-white`}
           >
-            {toKhmerNumber(i + 1)}
+            {i18n.language === 'km' ? toKhmerNumber(i + 1) : i + 1}
           </button>
         ))}
         <button onClick={handleNextPage} disabled={currentPage === totalPages} className='px-4 py-2 bg-gray-700 text-white rounded hover:bg-gray-600 disabled:opacity-50'>

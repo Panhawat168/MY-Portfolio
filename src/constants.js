@@ -147,6 +147,7 @@ export const SkillsInfo = [
 // constants/index.js
 export const menuItems = [
   { id: "home", labelKey: "navbar.home" },
+  { id: "about", labelKey: "navbar.about" },
   { id: "skills", labelKey: "navbar.skills" },
   { id: "experience", labelKey: "navbar.experience" },
   { id: "education", labelKey: "navbar.education" },
