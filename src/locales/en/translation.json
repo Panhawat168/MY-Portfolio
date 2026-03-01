@@ -49,7 +49,7 @@
     "0": {
       "role": " IT Office",
       "company": "General Department of Digital Technology and Media",
-      "desc": "T Office manages the organization’s technology, including networks, systems, software, and support. It ensures smooth and secure digital operations.",
+      "desc": "IT Office manages the organization’s technology, including networks, systems, software, and support. It ensures smooth and secure digital operations.",
       "data": "2024",
       "skills": [
         "Entered data in the Web-portal",
@@ -186,4 +186,5 @@
     "education": "Education",
     "rights": "All rights reserved"
   }
+
 }
